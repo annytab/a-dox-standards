@@ -9,9 +9,9 @@ namespace Annytab.Dox.Standards.V1
     {
         #region Variables
 
-        public decimal tax_rate { get; set; }
-        public decimal taxable_amount { get; set; }
-        public decimal tax_amount { get; set; }
+        public decimal? tax_rate { get; set; }
+        public decimal? taxable_amount { get; set; }
+        public decimal? tax_amount { get; set; }
 
         #endregion
 
@@ -23,9 +23,9 @@ namespace Annytab.Dox.Standards.V1
         public VatSpecification()
         {
             // Set values for instance variables
-            this.tax_rate = 0M;
-            this.taxable_amount = 0M;
-            this.tax_amount = 0M;
+            this.tax_rate = null;
+            this.taxable_amount = null;
+            this.tax_amount = null;
 
         } // End of the constructor
 

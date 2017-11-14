@@ -24,9 +24,9 @@ namespace Annytab.Dox.Standards.V1
         public ContractPoint()
         {
             // Set values for instance variables
-            this.id = "";
-            this.text_html = "";
-            this.sections = new List<ContractPoint>();
+            this.id = null;
+            this.text_html = null;
+            this.sections = null;
 
         } // End of the constructor
 

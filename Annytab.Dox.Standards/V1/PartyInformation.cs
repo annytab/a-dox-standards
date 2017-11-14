@@ -34,20 +34,20 @@ namespace Annytab.Dox.Standards.V1
         public PartyInformation()
         {
             // Set values for instance variables
-            this.person_id = "";
-            this.person_name = "";
-            this.address_line_1 = "";
-            this.address_line_2 = "";
-            this.address_line_3 = "";
-            this.postcode = "";
-            this.city_name = "";
-            this.country_name = "";
-            this.country_code = "";
-            this.state_code = "";
-            this.contact_name = "";
-            this.phone_number = "";
-            this.email = "";
-            this.vat_number = "";
+            this.person_id = null;
+            this.person_name = null;
+            this.address_line_1 = null;
+            this.address_line_2 = null;
+            this.address_line_3 = null;
+            this.postcode = null;
+            this.city_name = null;
+            this.country_name = null;
+            this.country_code = null;
+            this.state_code = null;
+            this.contact_name = null;
+            this.phone_number = null;
+            this.email = null;
+            this.vat_number = null;
 
         } // End of the constructor
 

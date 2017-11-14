@@ -25,10 +25,10 @@ namespace Annytab.Dox.Standards.V1
         public AnnytabDoxContract()
         {
             // Set values for instance variables
-            this.id = "";
-            this.issue_date = "2000-01-01";
-            this.parties = new List<PartyInformation>();
-            this.articles = new List<ContractPoint>();
+            this.id = null;
+            this.issue_date = null;
+            this.parties = null;
+            this.articles = null;
 
         } // End of the constructor
 

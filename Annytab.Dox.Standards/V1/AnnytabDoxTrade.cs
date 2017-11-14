@@ -21,8 +21,8 @@ namespace Annytab.Dox.Standards.V1
         public string terms_of_delivery { get; set; }
         public string terms_of_payment { get; set; }
         public string mode_of_delivery { get; set; }
-        public decimal total_weight_kg { get; set; }
-        public decimal penalty_interest { get; set; }
+        public decimal? total_weight_kg { get; set; }
+        public decimal? penalty_interest { get; set; }
         public string currency_code { get; set; }
         public string vat_country_code { get; set; }
         public string vat_state_code { get; set; }
@@ -33,13 +33,13 @@ namespace Annytab.Dox.Standards.V1
         public IList<PaymentOption> payment_options { get; set; }
         public IList<ProductRow> product_rows { get; set; }
         public IList<VatSpecification> vat_specification { get; set; }
-        public decimal subtotal { get; set; }
-        public decimal discount { get; set; }
-        public decimal vat_total { get; set; }
-        public decimal rounding { get; set; }
-        public decimal total { get; set; }
-        public decimal paid_amount { get; set; }
-        public decimal balance_due { get; set; }
+        public decimal? subtotal { get; set; }
+        public decimal? discount { get; set; }
+        public decimal? vat_total { get; set; }
+        public decimal? rounding { get; set; }
+        public decimal? total { get; set; }
+        public decimal? paid_amount { get; set; }
+        public decimal? balance_due { get; set; }
 
         #endregion
 
@@ -51,36 +51,36 @@ namespace Annytab.Dox.Standards.V1
         public AnnytabDoxTrade()
         {
             // Set values for instance variables
-            this.id = "";
-            this.document_type = "";
-            this.payment_reference = "";
-            this.issue_date = "2000-01-01";
-            this.due_date = "2000-01-01";
-            this.delivery_date = "2000-01-01";
-            this.seller_references = new Dictionary<string, string>();
-            this.buyer_references = new Dictionary<string, string>();
-            this.terms_of_delivery = "";
-            this.terms_of_payment = "";
-            this.mode_of_delivery = "";
-            this.total_weight_kg = 0M;
-            this.penalty_interest = 0M;
-            this.currency_code = "";
-            this.vat_country_code = "";
-            this.vat_state_code = "";
-            this.comment = "";
-            this.seller_information = new PartyInformation();
-            this.buyer_information = new PartyInformation();
-            this.delivery_information = new PartyInformation();
-            this.payment_options = new List<PaymentOption>();
-            this.product_rows = new List<ProductRow>();
-            this.vat_specification = new List<VatSpecification>();
-            this.subtotal = 0M;
-            this.discount = 0M;
-            this.vat_total = 0M;
-            this.rounding = 0M;
-            this.total = 0M;
-            this.paid_amount = 0M;
-            this.balance_due = 0M;
+            this.id = null;
+            this.document_type = null;
+            this.payment_reference = null;
+            this.issue_date = null;
+            this.due_date = null;
+            this.delivery_date = null;
+            this.seller_references = null;
+            this.buyer_references = null;
+            this.terms_of_delivery = null;
+            this.terms_of_payment = null;
+            this.mode_of_delivery = null;
+            this.total_weight_kg = null;
+            this.penalty_interest = null;
+            this.currency_code = null;
+            this.vat_country_code = null;
+            this.vat_state_code = null;
+            this.comment = null;
+            this.seller_information = null;
+            this.buyer_information = null;
+            this.delivery_information = null;
+            this.payment_options = null;
+            this.product_rows = null;
+            this.vat_specification = null;
+            this.subtotal = null;
+            this.discount = null;
+            this.vat_total = null;
+            this.rounding = null;
+            this.total = null;
+            this.paid_amount = null;
+            this.balance_due = null;
 
         } // End of the constructor
 

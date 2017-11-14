@@ -25,11 +25,11 @@ namespace Annytab.Dox.Standards.V1
         public PaymentOption()
         {
             // Set values for instance variables
-            this.name = "";
-            this.account_reference = "";
-            this.bank_identifier_code = "";
-            this.bank_name = "";
-            this.bank_country_code = "";
+            this.name = null;
+            this.account_reference = null;
+            this.bank_identifier_code = null;
+            this.bank_name = null;
+            this.bank_country_code = null;
 
         } // End of the constructor
 

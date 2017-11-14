@@ -14,10 +14,10 @@ namespace Annytab.Dox.Standards.V1
         public string manufacturer_code { get; set; }
         public string gtin { get; set; }
         public string product_name { get; set; }
-        public decimal vat_rate { get; set; }
-        public decimal quantity { get; set; }
+        public decimal? vat_rate { get; set; }
+        public decimal? quantity { get; set; }
         public string unit_code { get; set; }
-        public decimal unit_price { get; set; }
+        public decimal? unit_price { get; set; }
         public IList<ProductRow> subrows { get; set; }
 
         #endregion
@@ -30,15 +30,15 @@ namespace Annytab.Dox.Standards.V1
         public ProductRow()
         {
             // Set values for instance variables
-            this.product_code = "";
-            this.manufacturer_code = "";
-            this.gtin = "";
-            this.product_name = "";
-            this.vat_rate = 0;
-            this.quantity = 0;
-            this.unit_code = "";
-            this.unit_price = 0;
-            this.subrows = new List<ProductRow>();
+            this.product_code = null;
+            this.manufacturer_code = null;
+            this.gtin = null;
+            this.product_name = null;
+            this.vat_rate = null;
+            this.quantity = null;
+            this.unit_code = null;
+            this.unit_price = null;
+            this.subrows = null;
 
         } // End of the constructor
 
