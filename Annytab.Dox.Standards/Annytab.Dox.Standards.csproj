@@ -9,12 +9,14 @@
     <Copyright>Copyright © 2017</Copyright>
     <PackageIconUrl>http://www.annytab.com/annytab_logo_512x512.png</PackageIconUrl>
     <PackageTags>ASP.NET, .NET, Core, C#,  Standards, E-documents</PackageTags>
-    <PackageReleaseNotes>All variables are initialized to null. This to not create false expectations about field values.</PackageReleaseNotes>
+    <PackageReleaseNotes>Changes to the AnnytabDoxTrade:
++ offer_expires_date, the date when an offer no longer is valid.
+- discount, it was confusing and not part of VAT-rules.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <Description>This project includes standard e-documents as models, all standards are royalty-free. This project may include several versions, the last part of the namespace indicates the version of the standard.</Description>
     <PackageProjectUrl>https://github.com/annytab/a-dox-standards</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/annytab/a-dox-standards/blob/master/LICENSE</PackageLicenseUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>

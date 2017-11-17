@@ -16,6 +16,7 @@ namespace Annytab.Dox.Standards.V1
         public string issue_date { get; set; }
         public string due_date { get; set; }
         public string delivery_date { get; set; }
+        public string offer_expires_date { get; set; }
         public IDictionary<string, string> seller_references { get; set; }
         public IDictionary<string, string> buyer_references { get; set; }
         public string terms_of_delivery { get; set; }
@@ -34,7 +35,6 @@ namespace Annytab.Dox.Standards.V1
         public IList<ProductRow> product_rows { get; set; }
         public IList<VatSpecification> vat_specification { get; set; }
         public decimal? subtotal { get; set; }
-        public decimal? discount { get; set; }
         public decimal? vat_total { get; set; }
         public decimal? rounding { get; set; }
         public decimal? total { get; set; }
@@ -57,6 +57,7 @@ namespace Annytab.Dox.Standards.V1
             this.issue_date = null;
             this.due_date = null;
             this.delivery_date = null;
+            this.offer_expires_date = null;
             this.seller_references = null;
             this.buyer_references = null;
             this.terms_of_delivery = null;
@@ -75,7 +76,6 @@ namespace Annytab.Dox.Standards.V1
             this.product_rows = null;
             this.vat_specification = null;
             this.subtotal = null;
-            this.discount = null;
             this.vat_total = null;
             this.rounding = null;
             this.total = null;
