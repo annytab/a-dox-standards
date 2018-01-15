@@ -11,6 +11,7 @@ namespace Annytab.Dox.Standards.V1
         #region Variables
 
         public string id { get; set; }
+        public string title { get; set; }
         public string text_html { get; set; }
         public IList<ContractPoint> sections { get; set; }
 
@@ -25,6 +26,7 @@ namespace Annytab.Dox.Standards.V1
         {
             // Set values for instance variables
             this.id = null;
+            this.title = null;
             this.text_html = null;
             this.sections = null;
 
