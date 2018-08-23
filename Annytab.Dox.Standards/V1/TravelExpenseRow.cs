@@ -3,15 +3,19 @@
 namespace Annytab.Dox.Standards.V1
 {
     /// <summary>
-    /// This class represents a vat specification
+    /// This class represent a travel expense row
     /// </summary>
-    public class VatSpecification
+    public class TravelExpenseRow
     {
         #region Variables
 
-        public decimal? tax_rate { get; set; }
-        public decimal? taxable_amount { get; set; }
-        public decimal? tax_amount { get; set; }
+        public string code { get; set; }
+        public string description { get; set; }
+        public decimal? quantity { get; set; }
+        public string unit_code { get; set; }
+        public decimal? unit_price { get; set; }
+        public decimal? vat_amount { get; set; }
+        public string comment { get; set; }
 
         #endregion
 
@@ -20,12 +24,16 @@ namespace Annytab.Dox.Standards.V1
         /// <summary>
         /// Create a new post with default properties
         /// </summary>
-        public VatSpecification()
+        public TravelExpenseRow()
         {
             // Set values for instance variables
-            this.tax_rate = null;
-            this.taxable_amount = null;
-            this.tax_amount = null;
+            this.code = null;
+            this.description = null;
+            this.quantity = null;
+            this.unit_code = null;
+            this.unit_price = null;
+            this.vat_amount = null;
+            this.comment = null;
 
         } // End of the constructor
 

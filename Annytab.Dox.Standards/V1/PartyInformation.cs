@@ -58,7 +58,6 @@ namespace Annytab.Dox.Standards.V1
         /// <summary>
         /// Convert the object to a json string
         /// </summary>
-        /// <returns>A json formatted string</returns>
         public override string ToString()
         {
             return JsonConvert.SerializeObject(this);
