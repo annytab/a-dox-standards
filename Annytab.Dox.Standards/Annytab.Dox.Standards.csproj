@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -8,21 +8,27 @@
     <Product>a-dox-standards</Product>
     <Title>a-dox-standards</Title>
     <Copyright>Copyright © 2017</Copyright>
-    <PackageIconUrl>http://www.annytab.com/annytab_logo_512x512.png</PackageIconUrl>
     <PackageTags>ASP.NET, .NET, Core, C#,  Standards, E-documents</PackageTags>
-    <PackageReleaseNotes>Added new standard documents:
-- AnnytabDoxTravelExpenseClaim
-- AnnytabDoxDriveLog</PackageReleaseNotes>
+    <PackageReleaseNotes>Changed license to MIT.</PackageReleaseNotes>
     <NeutralLanguage>en</NeutralLanguage>
     <Description>This project includes standard e-documents as models, all standards are royalty-free. This project may include several versions, the last part of the namespace indicates the version of the standard.</Description>
     <PackageProjectUrl>https://github.com/annytab/a-dox-standards</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/annytab/a-dox-standards/blob/master/LICENSE</PackageLicenseUrl>
-    <Version>1.0.4</Version>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Version>1.0.5</Version>
     <LangVersion>latest</LangVersion>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
