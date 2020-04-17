@@ -3,5 +3,5 @@ This project includes standard e-documents as models, all standards are royalty-
 
 This project is available as a NuGet package: <a href="https://www.nuget.org/packages/Annytab.Dox.Standards/">a-dox-standards (NuGet Gallery)</a>
 
-Documentation (English): <a href="https://www.doxservr.com/home/standards">Annytab Dox Standards</a><br />
-Documentation (Swedish): <a href="https://www.doxservr.se/home/standards">Annytab Dox Standarder</a>
+Documentation (English): <a href="https://www.doxservr.com>Annytab Dox Standards</a><br />
+Documentation (Swedish): <a href="https://www.doxservr.se">Annytab Dox Standarder</a>
